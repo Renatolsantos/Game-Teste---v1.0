@@ -10,12 +10,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <ProjectReference Include="..\Game Teste - v1.0 - API\Game Teste - v1.0 - API.csproj" />
+    <ProjectReference Include="..\Game Teste - v1.0 - Controller\Game Teste - v1.0 - Controller.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Game Teste - v1.0 - API\Game Teste - v1.0 - API.csproj" />
-    <ProjectReference Include="..\Game Teste - v1.0 - Controller\Game Teste - v1.0 - Controller.csproj" />
+    <Folder Include="wwwroot\lib\bootstrap\css\" />
+    <Folder Include="wwwroot\lib\bootstrap\js\" />
   </ItemGroup>
 
 </Project>
